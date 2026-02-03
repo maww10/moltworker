@@ -14,6 +14,26 @@ export interface MoltbotEnv {
   ANTHROPIC_API_KEY?: string;
   ANTHROPIC_BASE_URL?: string;
   OPENAI_API_KEY?: string;
+    // Additional AI model providers
+  GOOGLE_API_KEY?: string;
+  GROQ_API_KEY?: string;
+  MISTRAL_API_KEY?: string;
+  COHERE_API_KEY?: string;
+  PERPLEXITY_API_KEY?: string;
+  TOGETHER_API_KEY?: string;
+  FIREWORKS_API_KEY?: string;
+  DEEPSEEK_API_KEY?: string;
+  XAI_API_KEY?: string;
+  REPLICATE_API_TOKEN?: string;
+  AZURE_OPENAI_API_KEY?: string;
+  AZURE_OPENAI_ENDPOINT?: string;
+  AWS_ACCESS_KEY_ID?: string;
+  AWS_SECRET_ACCESS_KEY?: string;
+  AWS_REGION?: string;
+  ELEVENLABS_API_KEY?: string;
+  BRAVE_API_KEY?: string;
+  GITHUB_TOKEN?: string;
+  NOTION_TOKEN?: string;
   MOLTBOT_GATEWAY_TOKEN?: string; // Gateway token (mapped to CLAWDBOT_GATEWAY_TOKEN for container)
 
   CLAWDBOT_BIND_MODE?: string;
